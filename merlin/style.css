@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha|Philosopher');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container_audio {
+	display: flex;
+	background-image: url(background2.jpg);
+	background-size: cover;
+	padding: 30px;
+	height: 600px;
+}
+
+.audio_files ul {
+	list-style: none;
+}
+
+.audio_files li {
+	padding: 10px;
+}
+
+.audio_header {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 40px;
+	color: #562e02;
+	text-decoration: underline;
+	text-shadow: 3px -3px 3px #fee6b7, -5px -5px 4px #e7d780;
+	margin: 50px;
+	margin-right: 200px;
+}
+
+.audio_files {
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	margin: 50px;
+}
+
+.container_video {
+	display: flex;
+	background-image: url(1.jpg);
+	background-size: cover;
+	padding: 10px;
+}
+
+.container_video div {
+	margin: 20px;
+}
+
+.video_header {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 40px;
+	color: #562e02;
+	text-decoration: underline;
+	text-shadow: 3px -3px 3px #fee6b7, -5px -5px 4px #e7d780;
+}
+
+.container_about {
+	display: flex;
+	padding: 10px;
+	background-image: url(0035.jpg);
+	background-size: cover;
+	height: 600px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin-left: 150px;
+}
+
+nav li {
+	padding: 10px 20px;
+	border-bottom: 6px solid;
+	font-family: 'Philosopher', sans-serif;
+	color: #d3fbff;
+}
+
+nav li:hover {
+	text-shadow: 3px 3px 3px #39fdc2, -3px -3px 3px #39fdc2;
+	border-bottom: 6px solid #39fdc2;
+}
+
+a {
+	text-decoration: none;
+	color: #016f48;
+}
+
+.film_name {
+	color: #016f48;
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 65px;
+	text-decoration: underline;
+	text-shadow:  -3px -3px 3px #39fdc2, -5px -5px 4px #c0fded;
+	margin: 35px;
+}
+
+.film_about {
+	width: 600px;
+	padding: 15px;
+	background-color: rgba(51, 105, 173, 0.7);
+	color: #d3fbff;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+	margin: 250px;
+	margin-left: 0px;
+}
